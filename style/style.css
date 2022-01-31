@@ -14,10 +14,10 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: wi 1s;
+    transition: width 1s ease-in;
 }
 .ex-2-square:active{
-
+    width: 100%;
 }
 
 
