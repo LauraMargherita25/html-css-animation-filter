@@ -163,6 +163,8 @@
 .ex-12-button:hover .ex-12-top-white{
     animation-name: move-right;
     animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes move-right{
@@ -180,6 +182,8 @@
 .ex-12-button:hover .ex-12-bottom-white{
     animation-name: move-left;
     animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes move-left{
@@ -197,6 +201,8 @@
 .ex-13-button:hover .ex-13-top-white{
     animation-name: move-right-allover;
     animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes move-right-allover{
@@ -230,6 +236,8 @@
 .ex-13-button:hover .ex-13-bottom-white{
     animation-name: move-left-allover;
     animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes move-left-allover{
